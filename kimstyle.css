@@ -17,7 +17,28 @@ p {
 	background-color: pink;
 	height: 30px;
 	display: flex;
+
+}
+
+.nav {
 	font-family: verdana;
 	font-size: 15px;
 	text-align: center;
+}
+
+#header {
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+}
+
+#content {
+	background-color: pink;
+	display: flex;
+	flex-direction: column;
+}
+#footer {
+	background-color: gray;
+	height: 30px;
+	display: flex;
 }
