@@ -2,12 +2,6 @@ body {
   background-color: purple;
 }
 
-header, footer {
-	background-color: gray;
-	display: flex;
-	flex-direction: column;
-}
-
 h1 {
   color: white;
   text-align: center;
@@ -19,12 +13,20 @@ p {
   color: white;
 }
 
+#content-container {
+	background: white;
+	display: flex;
+	width:800px;
+}
+
 #nav {
 	background-color: pink;
 	height: 30px;
 	display: flex;
 	margin-bottom: 10px;
 	flex-direction: column;
+	width: 100%;
+    height: 10%;
 }
 
 .nav {
@@ -38,4 +40,16 @@ p {
 	background-color: pink;
 	display: flex;
 	flex-direction: column;
+	width: 100%;
+    height: 70%;
+}
+
+#footer {
+	background-color: pink;
+	height: 30px;
+	display: flex;
+	margin-bottom: 10px;
+	flex-direction: column;
+	width: 100%;
+    height: 20%;
 }
