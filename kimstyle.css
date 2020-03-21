@@ -16,7 +16,8 @@ p {
 #content-container {
 	background: white;
 	display: flex;
-	width:800px;
+	width:1000px;
+	justify-content: center;
 }
 
 #nav {
