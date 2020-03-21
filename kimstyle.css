@@ -16,7 +16,7 @@ p {
 #content-container {
     background: white;
     display: flex;
-    width: 1000px;
+    width: 800px;
     justify-content: flex-start;
     flex-direction: column;
 }
