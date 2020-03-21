@@ -24,6 +24,7 @@ p {
 	height: 30px;
 	display: flex;
 	margin-bottom: 10px;
+	flex-direction: column;
 }
 
 .nav {
