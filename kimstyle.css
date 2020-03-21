@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: purple;
 }
 
 h1 {
@@ -10,4 +10,13 @@ h1 {
 p {
   font-family: verdana;
   font-size: 20px;
+}
+
+#nav {
+	background-color: pink;
+	height: 30px;
+	display: flex;
+	font-family: verdana;
+	font-size: 15px;
+	text-align: center
 }
