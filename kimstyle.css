@@ -35,7 +35,8 @@ p {
 
 
 #content {
-	background-color: gray;
+	background-color: gray;.
+	padding: 10px;
     height: 70%;
 }
 
