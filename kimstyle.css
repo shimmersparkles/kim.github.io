@@ -16,8 +16,8 @@ p {
 #content-container {
     background: white;
     display: flex;
-    height: 1000px;
-    justify-content: center;
+    width: 1000px;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
