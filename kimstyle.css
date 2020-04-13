@@ -50,7 +50,7 @@ body {
    font-weight: bold;
  }
 hr {
-  border-top: 3px solid #000;
+  border-top: 5px dashed #000;
   border-bottom: none;
 }
 a {
@@ -82,29 +82,7 @@ h3 {
 .shadow {
  box-shadow: 5px 5px 2px 1px #e0e0e0;
 }
-.heart {
-  background-color: pink;
-  height: 30px;
-  transform: rotate(-45deg);
-  width: 30px;
-  margin: 10px 80px;
-}
-.heart:before {
-  top: -15px;
-  left: 0;
-}
-.heart::after {
-  left: 15px;
-}
-.heart:before,
-.heart:after {
-  content: "";
-  background-color: pink;
-  border-radius: 50%;
-  height: 30px;
-  position: absolute;
-  width: 30px;
-}
+
 #about {
   background: white;
   border-radius: 10px;
@@ -135,6 +113,13 @@ h3 {
   padding: 10px 10px 10px 10px;
   margin-bottom: 80px;
   margin: 0 20px 20px 20px;
+  max-width: 250px;
+}
+.copyright {
+  bottom: 0;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+  margin-left: 70px;
 }
 h2 {
   margin-top: -5px;
