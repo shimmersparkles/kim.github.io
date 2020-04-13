@@ -33,6 +33,7 @@ body {
   list-style-type: none;
   font-size: 20px;
   padding: 10px 0 10px 20px;
+  margin-left: -50px;
 }
 #navbar a {
   text-decoration: none;
@@ -40,7 +41,9 @@ body {
  p {
    max-width: auto;
  }
- 
+.social {
+   color: pink;
+}
  header {
    font-size: 25px;
    font-family: 'Open Sans', sans-serif;
@@ -60,7 +63,7 @@ a {
   border-bottom: 0;
   padding-bottom: .3em;
   text-decoration: underline;
-  animation:blinkingText 1.5s infinite;
+  animation:blinkingText 1s infinite;
 }
 @keyframes blinkingText{
     0%{     color: #000;    }
@@ -73,7 +76,12 @@ h1 {
   font-family: 'Press Start 2P', cursive;
   color: magenta;
 }
-
+h3 {
+  margin-left: 10px;
+}
+.shadow {
+ box-shadow: 5px 5px 2px 1px #e0e0e0;
+}
 .heart {
   background-color: pink;
   height: 30px;
@@ -97,9 +105,46 @@ h1 {
   position: absolute;
   width: 30px;
 }
-.project-tile {
+#about {
   background: white;
-  border-radius: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+#projects {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+.tile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#contact {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+#menu {
+  background: white;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 80px;
+  margin: 0 20px 20px 20px;
+}
+h2 {
+  margin-top: -5px;
+}
+.project-tile {
+  background: pink;
+  border-radius: 10px;
+  margin: 20px 20px 20px 20px;
+  max-width: 500px;
+  padding: 10px 0 10px 0;
 }
 @media (max-width: 480px) {
     header {
